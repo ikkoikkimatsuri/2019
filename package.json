@@ -1,8 +1,8 @@
 {
-  "name": "鳥越一向一揆まつり",
-  "description": "鳥越一向一揆まつり公式サイト",
-  "version": "1.0.0",
-  "author": "鳥越一向一揆まつり実行委員会",
+  "name": "torigoe-ikkoikki-matsuri",
+  "description": "Torigoe ikkoikki festival official web site",
+  "version": "0.1.0",
+  "author": "Torigoe ikkoikki festival executive committee",
   "dependencies": {
     "gatsby": "^1.9.145",
     "gatsby-link": "^1.6.32",

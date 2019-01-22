@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     title: "鳥越一向一揆まつり",
     author: "鳥越一向一揆祭り実行委員会",
-    description: "A Gatsby.js Starter based on Ceevee by Styleshout"
+    description: "A Gatsby.js Starter based on Ceevee by Styleshout",
+    siteUrl: 'https://ikkoikkimatsuri.github.io/'
   },
   pathPrefix: "/ikkoikkimatsuri",
   plugins: [
