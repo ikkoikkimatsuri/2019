@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-ceevee",
-  "description": "Gatsby Starter - CeeVee ",
-  "version": "1.0.1",
-  "author": "Aman Mittal <amandeepmittal@live.com>",
+  "name": "鳥越一向一揆まつり",
+  "description": "鳥越一向一揆まつり公式サイト",
+  "version": "1.0.0",
+  "author": "鳥越一向一揆まつり実行委員会",
   "dependencies": {
     "gatsby": "^1.9.145",
     "gatsby-link": "^1.6.32",
@@ -24,12 +24,13 @@
     "typography-theme-bootstrap": "0.16.7"
   },
   "keywords": [
-    "gatsby"
+    "鳥越一向一揆まつり"
   ],
   "license": "MIT",
   "main": "n/a",
   "scripts": {
     "build": "gatsby build",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "develop": "gatsby develop",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
     "test": "echo \"Error: no test specified\" && exit 1"

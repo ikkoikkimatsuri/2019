@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Ceevee",
-    author: "Aman Mittal",
+    title: "鳥越一向一揆まつり",
+    author: "鳥越一向一揆祭り実行委員会",
     description: "A Gatsby.js Starter based on Ceevee by Styleshout"
   },
-  pathPrefix: "/",
+  pathPrefix: "/ikkoikkimatsuri",
   plugins: [
     {
       resolve: `gatsby-plugin-typography`,

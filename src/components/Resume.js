@@ -1,14 +1,14 @@
 import React from "react";
 
-import Education from "./Education";
-import Work from "./Work";
-import Skills from "./Skills";
+import Schedule from "./Schedule";
+import Place from "./Place";
+import Sponsor from "./Sponsor";
 
 const Resume = () => (
   <section id="resume">
-    <Education />
-    <Work />
-    <Skills />
+    <Schedule />
+    <Place />
+    <Sponsor />
   </section>
 );
 

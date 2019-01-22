@@ -5,18 +5,18 @@ import "../assets/css/main.css";
 
 import Header from "../components/Header";
 import About from "../components/About";
+import News from "../components/News";
 import Resume from "../components/Resume";
-import Portfolio from "../components/Portfolio";
-import Testimonials from "../components/Testimonials";
+import Image from "../components/Image";
 import Footer from "../components/Footer";
 
 const IndexPage = () => (
   <div>
     <Header />
     <About />
+    <News />
     <Resume />
-    <Portfolio />
-    <Testimonials />
+    <Image />
     <Footer />
   </div>
 );
