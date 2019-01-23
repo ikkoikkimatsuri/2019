@@ -815,7 +815,7 @@ properly.
    b. Header Styles
    c. About Section
    d. News Section
-   e. Resume Section
+   e. Detail Section
    f. Image Section
    g. Call To Action Section
    h. Testimonials Section
@@ -1148,51 +1148,51 @@ ul#nav li.current a {
 }
 
 /* ------------------------------------------------------------------ */
-/* e. Resume Section
+/* e. Detail Section
 /* ------------------------------------------------------------------ */
 
-#resume {
+#detail {
   background: #fff;
   padding-top: 90px;
   padding-bottom: 72px;
   overflow: hidden;
 }
 
-#resume a,
-#resume a:visited {
+#detail a,
+#detail a:visited {
   color: #11abb0;
 }
-#resume a:hover,
-#resume a:focus {
+#detail a:hover,
+#detail a:focus {
   color: #313131;
 }
 
-#resume h1 {
+#detail h1 {
   font: 18px/24px "opensans-bold", sans-serif;
   letter-spacing: 1px;
 }
-#resume h1 span {
+#detail h1 span {
   border-bottom: 3px solid #b0115b;
   padding-bottom: 6px;
 }
-#resume h3 {
+#detail h3 {
   font: 25px/30px "opensans-bold", sans-serif;
 }
 
-#resume h5 {
+#detail h5 {
   font: 25px/30px , sans-serif;
   padding-bottom: 12px;
 }
-#resume h5 span{
+#detail h5 span{
   border-bottom: 1px solid #b8b8b8;
   padding-bottom: 6px;
   font: 25px/30px , sans-serif;
 }
 
-#resume .header-col {
+#detail .header-col {
   padding-top: 9px;
 }
-#resume .main-col {
+#detail .main-col {
   padding-right: 10%;
 }
 
@@ -1206,42 +1206,42 @@ ul#nav li.current a {
 	width: 700px;
 	height: 400px;
 }
-#resume .info {
+#detail .info {
 
   color: #6e7881;
   margin-bottom: 18px;
   margin-top: 9px;
 }
-#resume .info span {
+#detail .info span {
   margin-right: 5px;
   margin-left: 5px;
 }
-#resume .date {
+#detail .date {
   margin-top: 6px;
 }
-#resume .kome {
+#detail .kome {
   margin-top: 2px;
 }
-#resume .map-pic {
+#detail .map-pic {
   max-width: 70%;
   height: auto;
 }
-#resume .parking-pic {
+#detail .parking-pic {
   margin-top: 6px;
 	width: 18px;
   height: auto;
 }
-#resume .sponsor {
+#detail .sponsor {
 	width: 200px;
   height: auto;
 }
-#resume .box3 {
+#detail .box3 {
   padding: 0.5em 1em;
   margin: 2em 0;
   font-weight: bold;
   border: solid 3px #000000;
 }
-#resume .box3 p {
+#detail .box3 p {
   margin: 0; 
   padding: 0;
 }
@@ -2162,10 +2162,10 @@ footer .social li:first-child {
  #about .contact-details { width: 50%; }
  #about .download { width: 50%; }
 
- /* Resume Section
+ /* Detail Section
  ------------------------------------------------------------------- */
- #resume h1 { font: 16px/24px  }
- #resume .main-col { padding-right: 5%; }
+ #detail h1 { font: 16px/24px  }
+ #detail .main-col { padding-right: 5%; }
 
  /* Testimonials Section
  ------------------------------------------------------------------- */
@@ -2329,17 +2329,17 @@ footer .social li:first-child {
  #about .main-col { padding-right: 30px; }
 
 
- /* Resume Section
+ /* Detail Section
  --------------------------------------------------------------------- */
- #resume .header-col {
+ #detail .header-col {
     padding-top: 0;
     margin-bottom: 48px;
     text-align: center;
  }
- #resume h1 { letter-spacing: 3px; }
- #resume .main-col { padding-right: 30px; }
- #resume h3, #resume .info { text-align: center; }
- #resume h5, #resume .info { text-align: center; }
+ #detail h1 { letter-spacing: 3px; }
+ #detail .main-col { padding-right: 30px; }
+ #detail h3, #detail .info { text-align: center; }
+ #detail h5, #detail .info { text-align: center; }
 
  .bars { width: 100%; }
 

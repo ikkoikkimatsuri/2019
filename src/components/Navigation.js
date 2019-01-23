@@ -35,19 +35,14 @@ class Navigation extends React.Component {
             News
           </a>
         </li>
-        <li className={isCurrent('#resume', pathname)}>
-          <a className="smoothscroll" href="#resume">
-            Resume
+        <li className={isCurrent('#detail', pathname)}>
+          <a className="smoothscroll" href="#detail">
+            Detail
           </a>
         </li>
         <li className={isCurrent('#image', pathname)}>
           <a className="smoothscroll" href="#image">
-            Works
-          </a>
-        </li>
-        <li className={isCurrent('#footer', pathname)}>
-          <a className="smoothscroll" href="#footer">
-            Footer
+            Image
           </a>
         </li>
       </ul>
