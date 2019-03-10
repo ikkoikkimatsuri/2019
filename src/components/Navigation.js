@@ -22,27 +22,27 @@ class Navigation extends React.Component {
       <ul id="nav" className="nav">
         <li className={isCurrent('#home', pathname)}>
           <a className="smoothscroll" href="#home">
-            Home
+            トップページ
           </a>
         </li>
         <li className={isCurrent('#about', pathname)}>
           <a className="smoothscroll" href="#about">
-            About
+            一向一揆まつりとは
           </a>
         </li>
         <li className={isCurrent('#news', pathname)}>
           <a className="smoothscroll" href="#news">
-            News
+            お知らせ
           </a>
         </li>
         <li className={isCurrent('#detail', pathname)}>
           <a className="smoothscroll" href="#detail">
-            Detail
+            詳細・アクセス
           </a>
         </li>
         <li className={isCurrent('#image', pathname)}>
           <a className="smoothscroll" href="#image">
-            Image
+            ギャラリー
           </a>
         </li>
       </ul>
