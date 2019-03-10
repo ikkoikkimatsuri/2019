@@ -7,7 +7,7 @@ const Banner = () => (
     <div className="banner-text">
         <img alt="" src={logo} />
       <h2>
-        平成３１年８月４日 日曜日
+        ２０１９年８月４日 日曜日
       </h2>
       <SocialLinks />
     </div>
