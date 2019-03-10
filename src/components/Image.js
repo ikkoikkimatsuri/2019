@@ -65,6 +65,7 @@ const Image = () => (
               <img alt="" src={Taiko2} />
             </div>
           </div>
+          
         </div>
       </div>
     </div>

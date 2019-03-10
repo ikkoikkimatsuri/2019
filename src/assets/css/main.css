@@ -1108,6 +1108,7 @@ ul#nav li.current a {
   line-height: 30px;
   color: #7a7a7a;
   border-bottom: 0.5px solid #b8b8b8;
+  text-align: center;
 }
 #news .infobox {
   height: 10em;  /* 高さを制限(※) */
@@ -1189,6 +1190,12 @@ ul#nav li.current a {
   font: 25px/30px , sans-serif;
 }
 
+#detail h6 span{
+  border-bottom: 1px solid #b8b8b8;
+  padding-bottom: 6px;
+  font: 18px/30px , sans-serif;
+}
+
 #detail .header-col {
   padding-top: 9px;
 }
@@ -1197,6 +1204,7 @@ ul#nav li.current a {
 }
 
 .schedule,
+.event,
 .place {
   margin-bottom: 48px;
   padding-bottom: 24px;
@@ -1231,10 +1239,6 @@ ul#nav li.current a {
 	width: 18px;
   height: auto;
 }
-#detail .sponsor {
-	width: 200px;
-  height: auto;
-}
 #detail .box3 {
   padding: 0.5em 1em;
   margin: 2em 0;
@@ -1245,9 +1249,20 @@ ul#nav li.current a {
   margin: 0; 
   padding: 0;
 }
+/* ======= outline - TOP ============================================ */
+#detail .tb-outline th {
+    width: 11em;
+    font-weight: normal;
+    padding: 15px 0px 10px 0px;
+    vertical-align: top;
+}
+
+#detail .tb-outline td {
+    padding: 15px 0px 10px 0px;
+}
 
 /*----------------------------------------------*/
-/*	Sponsor Bars
+/*	Event Bars
 /*----------------------------------------------*/
 
 .bars {
@@ -1256,7 +1271,7 @@ ul#nav li.current a {
   padding: 0;
   text-align: left;
 }
-.bars .sponsor {
+.bars .event {
   margin-top: 36px;
   list-style: none;
 }
@@ -2027,6 +2042,10 @@ footer a:visited {
 footer a:hover,
 footer a:focus {
   color: #fff;
+}
+
+footer .sponsor {
+  color: #525252;
 }
 
 /* copyright */

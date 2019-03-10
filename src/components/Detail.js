@@ -1,14 +1,14 @@
 import React from "react";
 
 import Schedule from "./Schedule";
+import Event from "./Event";
 import Place from "./Place";
-import Sponsor from "./Sponsor";
 
 const Detail = () => (
   <section id="detail">
     <Schedule />
+    <Event />
     <Place />
-    <Sponsor />
   </section>
 );
 
